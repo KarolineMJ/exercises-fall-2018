@@ -12,3 +12,7 @@ let newStyle = "Peter";
 
 console.log(oldStyle);
 console.log(newStyle);
+
+//boolean - true or false
+//string - a line of text 
+//object- can contain all of the other data from the other documents 
