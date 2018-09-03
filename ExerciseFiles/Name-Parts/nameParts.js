@@ -4,6 +4,8 @@ Hint: use indexOf and substring (avoid substr, it is being deprecals ted).
 Expect the name to be a const - you can’t modify it.
 */
 
+//a method doesn't change a string - a string is constant. 
+
 const fullName = "Peter Heronimous Lind";
 
 const firstSpace = fullName.indexOf(" ");
@@ -16,7 +18,7 @@ const firstName = fullName.substring(0, firstSpace);
 console.log(firstName);
 
 
-const middleName = fullName.substring(5 + 1, secondSpace);
+const middleName = fullName.substring(5, secondSpace).trim(); //trim removes spaces from the sentense 
 console.log(middleName);
 
 const lastName = fullName.substring(16 + 1);
